@@ -21,7 +21,7 @@ Resize by width:
 The fllowing URL points to a 160px width dynamically created image, pass the 'f' parameter by 'f-160-0':
 
 ```html
-<img src="img.php?uri=name_f-300-0" />
+<img src="img.php?uri=name_f-160-0" />
 ```
 
 ![](http://langwan.08mi.com/site/img?uri=langwanphpthumb_f-160-0)
@@ -32,7 +32,7 @@ Resize by height:
 The following URL points to a 160px width dynamically created image, pass the 'f' parameter by 'f-0-160':
 
 ```html
-<img src="img.php?uri=name_f-0-300" />
+<img src="img.php?uri=name_f-0-160" />
 ```
 
 ![](http://langwan.08mi.com/site/img?uri=langwanphpthumb_f-0-160)
