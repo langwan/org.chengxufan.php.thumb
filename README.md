@@ -68,3 +68,7 @@ use 'r' as parameter, will get a 100px * 200px image
 ```
 
 ![](http://langwan.08mi.com/site/img?uri=BAF3FDFE-1EE1-3B1D-C184-0F527BEF5F34_r-100-200)
+
+Version
+=======
+2014.07.13.17.00
