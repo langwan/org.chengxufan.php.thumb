@@ -1,45 +1,70 @@
 Langwan PHP Thumb
 =================
 
-A powerful image thumb library for php
+A url based image transformation php library.
 
-Example Usage
-=============
 
 Firstly, make your cache directory is writable, then access the script like so:
 
 ```html
 <img src="img.php?uri=name_f-0-200" />
 ```
-Query Parameters
+
+Original image
+==============
+
+![](http://langwan.08mi.com/site/img?uri=BAF3FDFE-1EE1-3B1D-C184-0F527BEF5F34)
+
+Resize by width:
 ================
 
-<table>
-    <tr>
-        <th>Key</th>
-        <th>Example Value</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>f</td>
-        <td>img.php?uri=name_f-{width}-{height}</td>
-        <td>fixed width or height, zero is auto.`f-0-200` is auto width and fixed height, `f-200-0` is auto height and fixed width.</td>
-    </tr>
-    <tr>
-        <td>a</td>
-        <td>img.php?uri=name_a-{width}-{height}-{color}</td>
-        <td>scaled down fill the background, `a-200-400-cccccc` image size is 200x400 background color is #cccccc.</td>
-    </tr>
-    <tr>
-        <td>c</td>
-        <td>img.php?uri=name_c-{width}-{height}</td>
-        <td>cut off the excess part.</td>
-    </tr>        
-    <tr>
-        <td>r</td>
-        <td>img.php?uri=name_r-{width}-{height}</td>
-        <td>resize image drawing this.</td>
-    </tr>
-</table>
+The fllowing URL points to a 300px width dynamically created image, pass the 'f' parameter by 'f-300-0':
 
+```html
+<img src="img.php?uri=name_f-300-0" />
+```
 
+![](http://langwan.08mi.com/site/img?uri=BAF3FDFE-1EE1-3B1D-C184-0F527BEF5F34_f-300-0)
+
+Resize by height:
+=================
+
+The following URL points to a 300px width dynamically created image, pass the 'f' parameter by 'f-0-300':
+
+```html
+<img src="img.php?uri=name_f-0-300" />
+```
+
+![](http://langwan.08mi.com/site/img?uri=BAF3FDFE-1EE1-3B1D-C184-0F527BEF5F34_f-0-300)
+
+Crop
+====
+
+Crop use 'c' as parameter, will get a 100px * 200px image cropping from center of the image
+
+```html
+<img src="img.php?uri=name_c-100-200" />
+```
+
+![](http://langwan.08mi.com/site/img?uri=BAF3FDFE-1EE1-3B1D-C184-0F527BEF5F34_c-100-200)
+
+Scaled Down
+===========
+
+use 'a' as parameter, will get a 100px * 200px image, default background is white
+
+```
+<img src="img.php?uri=name_a-100-200-555555" />
+```
+
+![](http://langwan.08mi.com/site/img?uri=BAF3FDFE-1EE1-3B1D-C184-0F527BEF5F34_a-100-200-555555)
+
+Stretch
+=======
+
+use 'r' as parameter, will get a 100px * 200px image
+```
+<img src="img.php?uri=name_r-100*200" />
+```
+
+![](http://langwan.08mi.com/site/img?uri=BAF3FDFE-1EE1-3B1D-C184-0F527BEF5F34_r-100-200)
