@@ -13,7 +13,7 @@ Firstly, make your cache directory is writable, then access the script like so:
 Original image
 ==============
 
-![](http://langwan.08mi.com/site/img?uri=langwanphpthumb2)
+![](http://langwan.08mi.com/site/img?uri=langwanphpthumb)
 
 Resize by width:
 ================
