@@ -7,7 +7,7 @@ Langwan PHP Thumb
 =======
 
 ```html
-<img src="http://langwan.08mi.com/site/img?uri=langwanphpthumb" />
+<img src="http://langwan.08mi.com/site/img/langwanphpthumb" />
 ```
 
 ![](http://langwan.08mi.com/site/img?uri=langwanphpthumb)
@@ -202,4 +202,4 @@ LangwanThumb设置
 	</tr>
 </table>
 
-![](http://langwan.08mi.com/site/img?uri=langwanphpthumb,s_400x400x555555.png)
+
