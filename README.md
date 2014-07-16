@@ -202,4 +202,4 @@ LangwanThumb设置
 	</tr>
 </table>
 
-![](http://evathumber.avnpc.com/thumb/d/demo,w_100.gif)
+![](http://langwan.08mi.com/site/img?uri=langwanphpthumb,s_400x400x555555.png)
