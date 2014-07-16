@@ -201,3 +201,5 @@ LangwanThumb设置
 		<td>你希望缩略图的生成格式，默认是png图。</td>
 	</tr>
 </table>
+
+![](http://evathumber.avnpc.com/thumb/d/demo,w_100.gif)
