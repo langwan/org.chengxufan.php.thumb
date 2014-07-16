@@ -183,12 +183,12 @@ LangwanThumb设置
 	<tr>
 		<td>* setDestDirectory($destDirectory)</td>
 		<td>null</td>
-		<td>缩略图的存放路径</td>
+		<td>缩略图的存放路径。</td>
 	</tr>
 	<tr>
 		<td>* setSrcDirectory($srcDirectory)</td>
 		<td>null</td>
-		<td>原始图片的存放路径</td>
+		<td>原始图片的存放路径。</td>
 	</tr>
 	<tr>
 		<td>setForce($force)</td>
