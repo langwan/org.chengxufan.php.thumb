@@ -10,7 +10,7 @@ Langwan PHP Thumb
 <img src="http://langwan.08mi.com/site/img/langwanphpthumb" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb)
+![Langwan PHP Thumb](http://langwan.08mi.com/site/img/langwanphpthumb)
 
 宽度固定高度自适应（会被拉伸）
 ========================
