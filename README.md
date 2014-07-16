@@ -18,7 +18,7 @@ Langwan PHP Thumb
 如果你想创建一个宽度为400px的图片，你需要传递"fw_400"这个指令，如果你原始图片的宽度不够，图片会被拉伸，这样方式的好处是让你的图片完全适应你的设计。
 
 ```html
-<img src="http://langwan.08mi.com/site/img?uri=langwanphpthumb,fw_400" />
+<img src="http://langwan.08mi.com/site/img/langwanphpthumb,fw_400" />
 ```
 
 ![](http://langwan.08mi.com/site/img?uri=langwanphpthumb,fw_400)
