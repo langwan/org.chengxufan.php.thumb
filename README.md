@@ -136,6 +136,17 @@ class CommandX extends LangwanThumbCommand {
 	'langwanthumb' => 'application.vendors.langwanthumb',
 	...
 ),
+
+'urlManager'=>array(
+        'urlFormat'=>'path',
+        'showScriptName' => false,
+        'rules'=>array(
+        	...
+                'site/img/<uri:[\w_,-]+>' => 'site/img'
+                ...
+        ),
+),
+
 ```
 
 2. 配置Action
