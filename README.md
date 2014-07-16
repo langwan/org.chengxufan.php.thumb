@@ -203,3 +203,4 @@ LangwanThumb设置
 </table>
 
 
+![](http://langwan.08mi.com/site/img/langwanphpthumb,s_400x400x555555,r_100)
