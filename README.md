@@ -41,10 +41,12 @@ Langwan PHP Thumb
 
 ```html
 <img src="http://langwan.08mi.com/site/img?uri=langwanphpthumb,r_400x300" />
+<br />
 <img src="http://langwan.08mi.com/site/img?uri=langwanphpthumb,r_400" />
 ```
 
 ![](http://langwan.08mi.com/site/img?uri=langwanphpthumb,r_400x300)
+
 ![](http://langwan.08mi.com/site/img?uri=langwanphpthumb,r_400)
 
 自适应（可能被放大）
