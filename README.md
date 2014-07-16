@@ -201,6 +201,3 @@ LangwanThumb设置
 		<td>你希望缩略图的生成格式，默认是png图。</td>
 	</tr>
 </table>
-
-
-![](http://langwan.08mi.com/site/img/langwanphpthumb,s_400x400x555555,r_100)
