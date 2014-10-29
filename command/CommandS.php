@@ -8,9 +8,9 @@
  *
  */
 
-Yii::import('langwanthumb.LangwanThumbCommand');
+Yii::import('cthumb.ChengxufanThumbCommand');
 
-class CommandS extends LangwanThumbCommand {
+class CommandS extends ChengxufanThumbCommand {
 	public function run($sfile, $dfile, $dmine, $value) {
 
 		$dw = $dh = $bgcolor = null;
