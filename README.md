@@ -7,10 +7,10 @@ org.chengxufan.php.thumb
 =======
 
 ```html
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb" />
+<img src="http://www.chengxufan.com/site/img/thumb.example" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb)
+![](http://www.chengxufan.com/site/img/thumb.example)
 
 宽度固定高度自适应（会被拉伸）
 ========================
@@ -18,10 +18,10 @@ org.chengxufan.php.thumb
 如果你想创建一个宽度为400px的图片，你需要传递"fw_400"这个指令，如果你原始图片的宽度不够，图片会被拉伸，这样方式的好处是让你的图片完全适应你的设计。
 
 ```html
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb,fw_400" />
+<img src="http://www.chengxufan.com/site/img/thumb.example,fw_400" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb,fw_400)
+![](http://www.chengxufan.com/site/img/thumb.example,fw_400)
 
 设置最大宽度高度自适应
 ===================
@@ -29,10 +29,10 @@ org.chengxufan.php.thumb
 如果你想创建一个宽度为400px的图片，你需要传递"mw_400"这个指令，如果你原始图片的宽度不够，会把原始图片输出到屏幕，这样图片不会被放大而难看。
 
 ```html
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb,mw_400" />
+<img src="http://www.chengxufan.com/site/img/thumb.example,mw_400" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb,mw_400)
+![](http://www.chengxufan.com/site/img/thumb.example,mw_400)
 
 拉伸图片
 =======
@@ -40,14 +40,14 @@ org.chengxufan.php.thumb
 如果你想得到一张400px * 300px的图片，你需要传递"r_400x300"这个指令，如果你想拉伸出一个正方形的图片，你也可以传递"r_400"。
 
 ```html
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb,r_400x300" />
+<img src="http://www.chengxufan.com/site/img/thumb.example,r_400x300" />
 <br />
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb,r_400" />
+<img src="http://www.chengxufan.com/site/img/thumb.example,r_400" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb,r_400x300)
+![](http://www.chengxufan.com/site/img/thumb.example,r_400x300)
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb,r_400)
+![](http://www.chengxufan.com/site/img/thumb.example,r_400)
 
 自适应（可能被放大）
 ================
@@ -55,10 +55,10 @@ org.chengxufan.php.thumb
 如果你想得到一张400px * 400px的图片，你需要传递"s_400x300x555555"这个指令，图片不会被拉伸，但是空白的地方会被颜色填充，如果原图片的高度和宽度比你想得到的图片要小，图片会被放大。
 
 ```html
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb,s_400x400x555555" />
+<img src="http://www.chengxufan.com/site/img/thumb.example,s_400x400x555555" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb,s_400x400x555555)
+![](http://www.chengxufan.com/site/img/thumb.example,s_400x400x555555)
 
 自适应（不会被放大）
 ================
@@ -66,10 +66,10 @@ org.chengxufan.php.thumb
 如果你想得到一张400px * 400px的图片，你需要传递"sm_400x300x555555"这个指令，图片不会被拉伸，但是空白的地方会被颜色填充，如果原图片的高度和宽度比你想得到的图片要小，会按照原始宽度和高度填充背景色。
 
 ```html
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb,sm_400x400x555555" />
+<img src="http://www.chengxufan.com/site/img/thumb.example,sm_400x400x555555" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb,sm_400x400x555555)
+![](http://www.chengxufan.com/site/img/thumb.example,sm_400x400x555555)
 
 组合指令
 =======
@@ -77,10 +77,10 @@ org.chengxufan.php.thumb
 如果你想让图片先自适应，然后再缩小到100px*100px，你可以使用两个指令组合"s_400x400x555555,r_100"，指令会从左到右依次执行
 
 ```html
-<img src="http://langwan.08mi.com/site/img/langwanphpthumb,s_400x400x555555,r_100" />
+<img src="http://www.chengxufan.com/site/img/thumb.example,s_400x400x555555,r_100" />
 ```
 
-![](http://langwan.08mi.com/site/img/langwanphpthumb,s_400x400x555555,r_100)
+![](http://www.chengxufan.com/site/img/thumb.example,r_100)
 
 强制更新图片
 ==========
