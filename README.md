@@ -1,5 +1,5 @@
-Langwan PHP Thumb
-=================
+org.chengxufan.php.thumb
+========================
 
 一个基于URL生成缩略图的Yii扩展，当前版本v2.0.0 
 
@@ -89,9 +89,9 @@ Langwan PHP Thumb
 
 ```php
 	
-$uri = 'langwanphpthumb,fw_100';
+$uri = 'chengxufanphpthumb,fw_100';
 
-$thumb = new LangwanThumb;
+$thumb = new ChengxufanThumb;
 $thumb->setSrcDirectory($this->srcDirectory)
 	->setKey($uri)
 	->setDestDirectory($this->destDirectory)
@@ -110,10 +110,10 @@ $thumb->setSrcDirectory($this->srcDirectory)
 扩展指令
 =======
 
-如果你想扩展出新的指令，你可以继承LangwanThumbCommand类实现自己的指令。
+如果你想扩展出新的指令，你可以继承ChengxufanThumbCommand类实现自己的指令。
 
 ```
-class CommandX extends LangwanThumbCommand {
+class CommandX extends ChengxufanThumbCommand {
 	public function run($sfile, $dfile, $dmine, $value) {
 		
 	}
@@ -133,7 +133,7 @@ class CommandX extends LangwanThumbCommand {
 ```php
 'aliases' => array(
 	...
-	'langwanthumb' => 'application.vendors.langwanthumb',
+	'cthumb' => 'application.vendors.cthumb',
 	...
 ),
 
@@ -156,7 +156,7 @@ public function actions()
 {
 	return array(
         'img'=>array(
-            'class'=>'langwanthumb.LangwanThumbAction',
+            'class'=>'cthumb.ChengxufanThumbAction',
             'srcDirectory' =>Yii::app()->getBasePath()."/../resource/upload/",
             'destDirectory' => Yii::app()->getBasePath()."/../resource/thumb/"
         ),
@@ -164,7 +164,7 @@ public function actions()
 }
 ```
 
-LangwanThumb设置
+Thumb设置
 ===============
 
 ＊ 表示必须设置的方法。

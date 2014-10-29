@@ -8,9 +8,9 @@
  *
  */
 
-Yii::import('langwanthumb.LangwanThumbCommand');
+Yii::import('cthumb.ChengxufanThumbCommand');
 
-class CommandFw extends LangwanThumbCommand {
+class CommandFw extends ChengxufanThumbCommand {
 	public function run($sfile, $dfile, $dmine, $value) {
 		$fw = $value;
 		$this->create($sfile);

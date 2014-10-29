@@ -8,15 +8,15 @@
  *
  */
 
-Yii::import('langwanthumb.LangwanThumb');
+Yii::import('cthumb.ChengxufanThumb');
 
-class LangwanThumbAction extends CAction {
+class ChengxufanThumbAction extends CAction {
 
     public $srcDirectory;
     public $destDirectory;
 
 	public function run() {
-		$thumb = new LangwanThumb;
+		$thumb = new ChenxufanThumb;
 		$thumb->setSrcDirectory($this->srcDirectory)
 		->setKey($_GET['uri'])
 		->setDestDirectory($this->destDirectory)

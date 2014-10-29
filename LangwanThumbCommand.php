@@ -8,7 +8,7 @@
  *
  */
 
-abstract class LangwanThumbCommand {
+abstract class ChengxufanThumbCommand {
 	public $ssize;
 	public $simg;
 	public $sfile;

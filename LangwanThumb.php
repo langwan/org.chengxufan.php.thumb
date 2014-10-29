@@ -8,9 +8,9 @@
  *
  */
 
-Yii::import('langwanthumb.command.*');
+Yii::import('cthumb.command.*');
 
-class LangwanThumb {
+class ChengxufanThumb {
 
 	public $cmds = null;
 	public $force = true;
